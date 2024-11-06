@@ -18,9 +18,6 @@ app.use(cookieParser());
 dotenv.config();
 
 
-// app.get("/",(req,res)=>{
-//     res.send("Hell")
-// })
 
 app.use("/api/auth",authRoutes);
 app.use("/api/messages",messageRoutes);
